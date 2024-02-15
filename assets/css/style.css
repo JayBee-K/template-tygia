@@ -4863,3 +4863,8 @@
 .table-theme.is-show {
 	max-height: 100%;
 }
+
+
+.collapse-table > i {
+	font-size: 12px;
+}

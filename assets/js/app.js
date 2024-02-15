@@ -453,10 +453,11 @@ $(function () {
 
 			if (target.hasClass('is-show')) {
 				target.removeClass('is-show');
-				$(this).text('Xem thêm');
+				$(this).html('Xem thêm&nbsp;<i class="fa fa-plus"></i>');
 			} else {
 				target.addClass('is-show');
 				$(this).text('Thu gọn');
+				$(this).html('Thu gọn&nbsp;<i class="fa fa-minus"></i>');
 			}
 		});
 	}
