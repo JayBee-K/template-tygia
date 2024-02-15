@@ -226,7 +226,7 @@ let handleCallSidebar = function () {
 	}
 }
 
-let handleCheckInTable = function (){
+let handleCheckInTable = function () {
 	$('.check-all').click(function () {
 		if ($(this).is(':checked')) {
 			$('.check-only').each(function () {
@@ -446,4 +446,18 @@ $(function () {
 	handleCallSidebar();
 	handleCheckInTable();
 	handleViewPass();
+
+	if ($('.collapse-table').length) {
+		$(document).on('click', '.collapse-table', function () {
+			let target = $($(this).attr('data-id'));
+
+			if (target.hasClass('is-show')) {
+				target.removeClass('is-show');
+				$(this).text('Xem thêm');
+			} else {
+				target.addClass('is-show');
+				$(this).text('Thu gọn');
+			}
+		});
+	}
 });
