@@ -1,0 +1,39 @@
+.card-table_price .card-body .card-list ul li {
+	position: relative;
+	font-size: 1.075em;
+	color: var(--bs-black);
+	padding: 8px 0 8px 25px;
+	list-style: none;
+}
+
+.card-table_price .card-body .card-list ul li:before {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: url(../images/check-green.svg) center center/cover no-repeat;
+	top: 9px;
+	left: 0;
+	content: "";
+}
+
+.card-table_price .card-body .card-list ul {
+	padding-left: 0px;
+}
+
+.header .header-users > a {
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 991px) {
+	.header .header-users > a {
+		margin-right: 10px !important;
+	}
+}
+
+.box-shadow {
+	box-shadow: 0 6px 14px -6px rgba(24, 39, 75, 0.1), 0px 10px 32px -4px rgba(24, 39, 75, 0.075);
+}
+
+.float-right {
+	float: right !important;
+}
