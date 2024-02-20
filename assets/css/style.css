@@ -4876,15 +4876,6 @@
 	height: 100%;
 }
 
-.volatile-card .volatile-card_title {
-	font-size: 1.15em;
-	font-weight: 700;
-	color: var(--bs-black);
-	padding-left: 12px;
-	padding-right: 12px;
-	margin-bottom: 4px;
-}
-
 .volatile-card .volatile-card_list {
 	display: flex;
 	flex-direction: column;
