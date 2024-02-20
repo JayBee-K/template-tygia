@@ -4870,7 +4870,7 @@
 }
 
 .volatile-card {
-	padding: 10px 8px;
+	padding: 6px 8px;
 	border-radius: 6px;
 	box-shadow: 0 0 0 2px rgb(239 242 245);
 	height: 100%;
@@ -4884,7 +4884,7 @@
 .volatile-card .volatile-card_list .volatile-item {
 	display: flex;
 	align-items: center;
-	padding: 10px 12px;
+	padding: 6px 12px;
 	border-radius: 6px;
 	transition: var(--transition-default);
 	position: relative;
