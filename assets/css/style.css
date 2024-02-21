@@ -5269,7 +5269,7 @@
 
 .form-swap .form-swap_item {
     position: relative;
-    width: calc(50% - 18px);
+    width: calc(50% - 21px);
 }
 
 .form-swap .form-swap_item .form-swap_control {
@@ -5368,5 +5368,19 @@
     .coin-content {
         padding-left: 0;
         border-left: 0;
+    }
+
+    .form-swap {
+        gap: 10px;
+    }
+
+
+    .form-swap .form-swap_button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .form-swap .form-swap_item .form-swap_control {
+        height: 40px;
     }
 }
