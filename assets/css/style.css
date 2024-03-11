@@ -5444,8 +5444,7 @@
 	}
 }
 
-.table-sticky_column th:nth-child(2),
-.table-sticky_column td:nth-child(2){
+.table-sticky .sticky-column{
 	position: sticky;
 	left: 0;
 	z-index: 2;
