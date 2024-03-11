@@ -5443,3 +5443,11 @@
 		line-height: 1.4;
 	}
 }
+
+.table-sticky_column th:nth-child(2),
+.table-sticky_column td:nth-child(2){
+	position: sticky;
+	left: 0;
+	z-index: 2;
+	background: var(--bs-white);
+}
